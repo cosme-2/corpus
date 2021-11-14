@@ -1,0 +1,461 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "/loj22.dataset.schema.json",
+    "title": "loj22 schema",
+    "description": "It is a complete schema of the dataset. It includes the two parts: i) common part for all corpus - /datasetInformation/; ii) specific fields of the given corpus - /datasetItems/ ",
+    "type": "object",
+    "properties":
+    {
+        "datasetInformation":
+        {
+            "description": "This is a corpus common informations (title, authors, date of creation, etc.)",
+            "type": "object",
+            "properties":
+            {
+                "datasetName":
+                {
+                    "description": "The name of the dataset",
+                    "type": "string"
+                },
+                "datasetURL":
+                {
+                    "description": "The web adresse where the dataset is published by TELMA",
+                    "type": "string"
+                },
+                "datasetAuthors":
+                {
+                    "description": "The authors of the dataset",
+                    "type": "array",
+                    "items":
+                    {
+                        "type": "string"
+                    },
+                    "minItems": 1,
+                    "uniqueItems": true
+                },
+                "datasetCreationDate":
+                {
+                    "description": "Date (YYYY-MM-DD, for example, 2018-11-13) when this dataset json file was created. For /date/format/ specification see https://json-schema.org/understanding-json-schema/reference/string.html",
+                    "type": "string",
+                    "format": "date"
+                },
+                "datasetLicence":
+                {
+                    "description": "Licence associated with this dataset",
+                    "type": "string"
+                },
+                "datasetStatus":
+                {
+                    "description": "Mark if the dataset is published or not on TELMA. In TELMA database value 1 means /not published/ and value 2 means /published/. Only can use two defined values /published/ or /not published/",
+                    "type": "string",
+                    "enum":
+                    [
+                        "not published",
+                        "published"
+                    ]
+                }
+            },
+            "required":
+            [
+                "datasetName",
+                "datasetURL",
+                "datasetCreationDate",
+                "datasetLicence"
+            ]
+        },
+        "datasetItems":
+        {
+            "description": "Dataset item is one record (act, letter, charte, etc.). Each item element is a field of the record.",
+            "type": "array",
+            "items":
+            {
+                "description": "There go the items as array",
+                "type": "object",
+                "properties":
+                {
+                    "itemIdTELMA":
+                    {
+                        "description": "The TELMA unique identifier for a item. Not the same as corpus unique indentifier; this is, TELMA use two different identifiers, one common for all TELMA corpora, and another one used only at the level of given corpus. This ID is TELMA common ID.",
+                        "type": "integer"
+                    },
+                    "itemURL":
+                    {
+                        "description": "The item web adresse",
+                        "type": "string"
+                    },
+                    "itemStatus":
+                    {
+                        "description": "Mark if the item is published or not on TELMA. In TELMA database value 1 means /not published/ and value 2 means /published/. Only can use two defined values /published/ or /not published/",
+                        "type": "string",
+                        "enum":
+                        [
+                            "not published",
+                            "published"
+                        ]
+                    },
+                    "date":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "dateLibre":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "typeDocument":
+                    {
+                        "description": "Add description here",
+                        "type": "array",
+                        "items":
+                        {
+                            "type": "string"
+                        }
+                    },
+                    "typeDocumentAutre":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "categorieDocument":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "categorieRegistre":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "coteArchive":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "support":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "lettreRetaillee":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "hauteurDepliee":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "largeur":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "repliEventuel":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "margeSuperieureInitiale":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "margeSuperieureHastes":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "margeLaterale1":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "margeLaterale2":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "adresse":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "salut":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "formulePerpetuite":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "incipit":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "initiale":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "InitialeAutre":
+                    {
+                        "description": "This is a group. Add group description here",
+                        "type": "object",
+                        "properties":
+                        {
+                            "initialeNue":
+                            {
+                                "description": "Add description here",
+                                "type": "string"
+                            },
+                            "initialeCadelee":
+                            {
+                                "description": "Add description here",
+                                "type": "string"
+                            },
+                            "initialeCadeleeAutre":
+                            {
+                                "description": "Add description here",
+                                "type": "array",
+                                "items":
+                                {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    },
+                    "lettresAllongees":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "hastesAllongees":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "semblablesAutre":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "premiereLigneAutre":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "nombreLignes":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "ratures":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "grattagesReecritures":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "descriptionAutre":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "bulleAnneau":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "bulleAnneauAutre":
+                    {
+                        "description": "This is a group. Add group description here",
+                        "type": "object",
+                        "properties":
+                        {
+                            "presenceBulle":
+                            {
+                                "description": "Add description here",
+                                "type": "string"
+                            },
+                            "dechirureSupport":
+                            {
+                                "description": "Add description here",
+                                "type": "string"
+                            },
+                            "tracePerforation":
+                            {
+                                "description": "Add description here",
+                                "type": "string"
+                            },
+                            "attacheRestauree":
+                            {
+                                "description": "Add description here",
+                                "type": "string"
+                            },
+                            "bulleFil":
+                            {
+                                "description": "Add description here",
+                                "type": "string"
+                            },
+                            "bulleFilAutre":
+                            {
+                                "description": "Add description here",
+                                "type": "string"
+                            },
+                            "couleurSoie":
+                            {
+                                "description": "Add description here",
+                                "type": "string"
+                            },
+                            "couleurSoieAutre":
+                            {
+                                "description": "Add description here",
+                                "type": "string"
+                            }
+                        },
+                        "required":
+                        [
+                            "dechirureSupport",
+                            "tracePerforation"
+                        ]
+                    },
+                    "marqueApprobationDroit":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "marqueApprobationDroitAutre":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "marqueApprobationGauche":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "marqueApprobationGaucheAutre":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "taxation":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "taxateur":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "mentionsPlicaAutre":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "marqueTrousAttache":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "scriptor":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "rescrit":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "mentionsHorsTeneurPlicaAutre":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "adresseExterne":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "marquesEnregistrement":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "porteur":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "destinataire":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "mentionsHorsTeneurFaceBAutre":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "analysesMedievales":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "analyseContemporaine":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "transcription":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "notes":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "donnesReuniesPar":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "donneesSaisiesPar":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    },
+                    "correctionsRevisionsPar":
+                    {
+                        "description": "Add description here",
+                        "type": "string"
+                    }
+                },
+                "required":
+                [
+                    "dateLibre",
+                    "coteArchive",
+                    "support",
+                    "ratures",
+                    "grattagesReecritures",
+                    "donnesReuniesPar",
+                    "donneesSaisiesPar"
+                ]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    }
+}

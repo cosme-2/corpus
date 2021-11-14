@@ -1,0 +1,234 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "/cartulr.province.dataset.schema.json",
+    "title": "cartulr province dataset schema",
+    "description": "It is a complete schema of the dataset. It includes the two parts: i) common part for all corpus - /datasetInformation/; ii) specific fields of the given corpus - /datasetItems/ ",
+    "type": "object",
+    "properties":
+    {
+        "datasetInformation":
+        {
+            "description": "This is a corpus common informations (title, authors, date of creation, etc.)",
+            "type": "object",
+            "properties":
+            {
+                "datasetName":
+                {
+                    "description": "The name of the dataset",
+                    "type": "string"
+                },
+                "datasetURL":
+                {
+                    "description": "The web adresse where the dataset is published by TELMA",
+                    "type": "string"
+                },
+                "datasetJsonSchemaURL":
+                {
+                    "description": "Indicate here where is a json schema for these data. All schema will be stored on GitHub profile of COSME2",
+                    "type": "string"
+                },
+                "datasetAuthors":
+                {
+                    "description": "The authors of the dataset",
+                    "type": "array",
+                    "items":
+                    {
+                        "type": "string"
+                    },
+                    "minItems": 1,
+                    "uniqueItems": true
+                },
+                "datasetPartition":
+                {
+                    "description": "To avoid to have too large files difficult to open, the dataset is divided into several parts. The division is made on the basis of 2000 records by part (it's equal, more or less, to a 10MB json file).",
+                    "type": "object",
+                    "properties":
+                    {
+                        "PartitionNumber":
+                        {
+                            "description": "parts number",
+                            "type": "integer"
+                        },
+                        "PartitionsInDataset":
+                        {
+                            "description": "number of parts in the dataset",
+                            "type": "integer"
+                        },
+                        "ItemsInPartition":
+                        {
+                            "description": "number of the items in the part",
+                            "type": "integer"
+                        },
+                        "ItemsInDataset":
+                        {
+                            "description": "number of the items in the dataset",
+                            "type": "integer"
+                        }
+                    }
+                },
+                "datasetCreationDate":
+                {
+                    "description": "Date (YYYY-MM-DD, for example, 2018-11-13) when this dataset json file was created. For /date/format/ specification see https://json-schema.org/understanding-json-schema/reference/string.html",
+                    "type": "string",
+                    "format": "date"
+                },
+                "datasetLicence":
+                {
+                    "description": "Licence associated with this dataset",
+                    "type": "string"
+                },
+                "datasetStatus":
+                {
+                    "description": "Mark if the dataset is published or not on TELMA. In TELMA database value 1 means /not published/ and value 2 means /published/. Only can use two defined values /published/ or /not published/",
+                    "type": "string",
+                    "enum":
+                    [
+                        "not published",
+                        "published"
+                    ]
+                }
+            },
+            "required":
+            [
+                "datasetName",
+                "datasetURL",
+                "datasetCreationDate",
+                "datasetLicence"
+            ]
+        },
+        "datasetItems":
+        {
+            "description": "Dataset item is one record (act, letter, charte, etc.). Each item element is a field of the record.",
+            "type": "array",
+            "items":
+            {
+                "description": "There go the items as objects of array",
+                "type": "object",
+                "properties":
+                {
+                    "itemIdTELMA":
+                    {
+                        "description": "The TELMA unique identifier for a item. Not the same as corpus unique indentifier; this is, TELMA use two different identifiers, one common for all TELMA corpora, and another one used only at the level of given corpus. This ID is TELMA common ID.",
+                        "type": "integer"
+                    },
+                    "itemURL":
+                    {
+                        "description": "The item web adresse",
+                        "type": "string"
+                    },
+                    "itemStatus":
+                    {
+                        "description": "Mark if the item is published or not on TELMA. In TELMA database value 1 means /not published/ and value 2 means /published/. Only can use two defined values /published/ or /not published/",
+                        "type": "string",
+                        "enum":
+                        [
+                            "not published",
+                            "published"
+                        ]
+                    },
+                    "itemType":
+                    {
+                        "description": "Records of this dataset can be six main types: depot, diocese, entite, exemplaire, personne, province",
+                        "type": "string",
+                        "enum":
+                        [
+                            "depot",
+                            "diocese",
+                            "entite",
+                            "exemplaire",
+                            "personne",
+                            "province"
+                        ]
+                    },
+                    "nom":
+                    {
+                        "description": "Add description here",
+                        "type": "array",
+                        "items":
+                        {
+                            "type": "string"
+                        }
+                    },
+                    "dateGroup":
+                    {
+                        "description": "Dataset item is one record (act, letter, charte, etc.). Each item element is a field of the record.",
+                        "type": "array",
+                        "items":
+                        {
+                            "description": "This is a group. Add group description here",
+                            "type": "object",
+                            "properties":
+                            {
+                                "date":
+                                {
+                                    "description": "Add description here",
+                                    "type": "string"
+                                },
+                                "date_deb_annee":
+                                {
+                                    "description": "Add description here",
+                                    "type": "string"
+                                },
+                                "date_deb_mois":
+                                {
+                                    "description": "Add description here",
+                                    "type": "string"
+                                },
+                                "date_deb_jour":
+                                {
+                                    "description": "Add description here",
+                                    "type": "string"
+                                },
+                                "date_apres":
+                                {
+                                    "description": "Add description here",
+                                    "type": "integer"
+                                },
+                                "date_avant":
+                                {
+                                    "description": "Add description here",
+                                    "type": "integer"
+                                }
+                            }
+                        }
+                    },
+                    "historique":
+                    {
+                        "description": "Add description here",
+                        "type": "array",
+                        "items":
+                        {
+                            "type": "string"
+                        }
+                    },
+                    "lien":
+                    {
+                        "description": "Add description here",
+                        "type": "array",
+                        "items":
+                        {
+                            "type": "string"
+                        }
+                    },
+                    "remarque":
+                    {
+                        "description": "Add description here",
+                        "type": "array",
+                        "items":
+                        {
+                            "type": "string"
+                        }
+                    }
+                },
+                "required":
+                [
+                    "itemId",
+                    "itemURL",
+                    "itemStatus"
+                ]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    }
+}
