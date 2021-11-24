@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "/cartulr.exemplaire.dataset.schema.json",
+    "$id": "https://raw.githubusercontent.com/cosme-2/corpus/main/cartulr/schemas/cartulr.exemplaire.dataset.schema.json",
     "title": "cartulr exemplaire dataset schema",
     "description": "It is a complete schema of the dataset. It includes the two parts: i) common part for all corpus - /datasetInformation/; ii) specific fields of the given corpus - /datasetItems/ ",
     "type": "object",
@@ -142,7 +142,7 @@
                     },
                     "tome":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -151,7 +151,7 @@
                     },
                     "num_stein":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -160,7 +160,7 @@
                     },
                     "support":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -169,7 +169,7 @@
                     },
                     "format":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -178,7 +178,7 @@
                     },
                     "nbvol":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -187,7 +187,7 @@
                     },
                     "hauteur":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -196,7 +196,7 @@
                     },
                     "largeur":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -205,7 +205,7 @@
                     },
                     "collation":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -214,7 +214,7 @@
                     },
                     "nb_actes":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -233,32 +233,32 @@
                             {
                                 "date":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_annee":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_mois":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_jour":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_apres":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "integer"
                                 },
                                 "date_avant":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "integer"
                                 }
                             }
@@ -266,7 +266,7 @@
                     },
                     "dimensions":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -275,7 +275,7 @@
                     },
                     "etat_conservation":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -284,7 +284,7 @@
                     },
                     "histoire":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -293,7 +293,7 @@
                     },
                     "nbfol":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -302,7 +302,7 @@
                     },
                     "contenu":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -311,7 +311,7 @@
                     },
                     "foliotation":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -320,7 +320,7 @@
                     },
                     "reliure":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -329,7 +329,7 @@
                     },
                     "conservation":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -338,7 +338,7 @@
                     },
                     "titre":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -347,7 +347,7 @@
                     },
                     "additions":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -356,7 +356,7 @@
                     },
                     "remarque_ecritures":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -365,7 +365,7 @@
                     },
                     "validation":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -374,7 +374,7 @@
                     },
                     "origine":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -383,7 +383,7 @@
                     },
                     "stein_supplement_page":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -392,7 +392,7 @@
                     },
                     "autres_docs":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -401,7 +401,7 @@
                     },
                     "communicabilite":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -410,7 +410,7 @@
                     },
                     "num_rcf":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -419,7 +419,7 @@
                     },
                     "mise_en_page":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -428,7 +428,7 @@
                     },
                     "elaboration":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -437,7 +437,7 @@
                     },
                     "commentaire":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -446,7 +446,7 @@
                     },
                     "cote":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -455,7 +455,7 @@
                     },
                     "lien":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -464,7 +464,7 @@
                     },
                     "id_telma_1":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {

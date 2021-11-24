@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "/cartulaires-wallons.entite.dataset.schema.json",
+    "$id": "https://raw.githubusercontent.com/cosme-2/corpus/main/cartulaires-walllons/schemas/cartulaires-wallons.entite.dataset.schema.json",
     "title": "cartulaires-wallons entite dataset schema",
     "description": "It is a complete schema of the dataset. It includes the two parts: i) common part for all corpus - /datasetInformation/; ii) specific fields of the given corpus - /datasetItems/ ",
     "type": "object",
@@ -139,12 +139,12 @@
                     },
                     "cote":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "type_entite":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -163,32 +163,32 @@
                             {
                                 "date":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_annee":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_mois":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_jour":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_apres":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "integer"
                                 },
                                 "date_avant":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "integer"
                                 }
                             }
@@ -196,22 +196,22 @@
                     },
                     "date_libre":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "remarque":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "appelation_ancienne_colophon":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "description":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -220,7 +220,7 @@
                     },
                     "support":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -229,42 +229,42 @@
                     },
                     "format":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "nbfol":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "hauteur":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "largeur":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "reliure":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "nb_actes":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "contenu":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "note":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -273,7 +273,7 @@
                     },
                     "num_stein":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -282,12 +282,12 @@
                     },
                     "stein_supplement":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "lien":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -296,7 +296,7 @@
                     },
                     "bibliographie":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -305,22 +305,22 @@
                     },
                     "consultation":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "reperage":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "ms_perdu":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "niveau_analyse":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     }
                 },

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "/cartulaires-wallons.personne.dataset.schema.json",
+    "$id": "https://raw.githubusercontent.com/cosme-2/corpus/main/cartulaires-walllons/schemas/cartulaires-wallons.personne.dataset.schema.json",
     "title": "cartulaires-wallons personne dataset schema",
     "description": "It is a complete schema of the dataset. It includes the two parts: i) common part for all corpus - /datasetInformation/; ii) specific fields of the given corpus - /datasetItems/ ",
     "type": "object",
@@ -139,12 +139,12 @@
                     },
                     "nom":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "type_personne":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -153,7 +153,7 @@
                     },
                     "statut_personne":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -162,7 +162,7 @@
                     },
                     "type_institution_religieuse":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -181,12 +181,12 @@
                             {
                                 "ordre_religieux":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "sexe":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 }
                             }
@@ -204,37 +204,37 @@
                             {
                                 "lieu":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "geoname":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "pays":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "region":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "commune":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "lat":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "lng":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 }
                             }
@@ -242,12 +242,12 @@
                     },
                     "lieu_ancien":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "lien":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "/origineaux1.dataset.schema.json",
+    "$id": "https://raw.githubusercontent.com/cosme-2/corpus/main/originaux/schemas/originaux1.dataset.schema.json",
     "title": "origineaux1 dataset schema",
     "description": "It is a complete schema of the dataset. It includes the two parts: i) common part for all corpus - /datasetInformation/; ii) specific fields of the given corpus - /datasetItems/ ",
     "type": "object",
@@ -126,65 +126,70 @@
                             "published"
                         ]
                     },
+                    "itemType":
+                    {
+                        "description": "The type of item (usually it is an 'acte')",
+                        "type": "string"
+                    },
                     "auteur":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "object",
                         "properties":
                         {
                             "nom":
                             {
-                                "description": "Add description here",
+                                "description": "Field description",
                                 "type": "string"
                             },
                             "lieu1":
                             {
-                                "description": "Add description here",
+                                "description": "Field description",
                                 "type": "string"
                             },
                             "lieu2":
                             {
-                                "description": "Add description here",
+                                "description": "Field description",
                                 "type": "string"
                             },
                             "role":
                             {
-                                "description": "Add description here",
+                                "description": "Field description",
                                 "type": "string"
                             }
                         }
                     },
                     "beneficiaire":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "object",
                         "properties":
                         {
                             "nom":
                             {
-                                "description": "Add description here",
+                                "description": "Field description",
                                 "type": "string"
                             },
                             "lieu1":
                             {
-                                "description": "Add description here",
+                                "description": "Field description",
                                 "type": "string"
                             },
                             "lieu2":
                             {
-                                "description": "Add description here",
+                                "description": "Field description",
                                 "type": "string"
                             },
                             "role":
                             {
-                                "description": "Add description here",
+                                "description": "Field description",
                                 "type": "string"
                             }
                         }
                     },
                     "date_libre":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "dateGroup":
@@ -199,32 +204,32 @@
                             {
                                 "date":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_annee":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_mois":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_jour":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_apres":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "integer"
                                 },
                                 "date_avant":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "integer"
                                 }
                             }
@@ -232,142 +237,142 @@
                     },
                     "date_type":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "cote":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "genre":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "sceau":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "largeur_bas":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "hauteur_gauche":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "diocese":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "lieu":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "numero_artem":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "id_telma":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "date_fiabilite":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "support":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "type_source":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "support_sceau":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "hauteur_droite":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "lieu_latin":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "remarques":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "repli":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "image_interne":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "responsable":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "validation_fiche":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "edition":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "analyse":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "transcription":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "chirographie":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "fiabilite":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "type_source_complement":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "largeur_haut":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     }
                 },

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "/cartulr.province.dataset.schema.json",
+    "$id": "https://raw.githubusercontent.com/cosme-2/corpus/main/cartulr/schemas/cartulr.province.dataset.schema.json",
     "title": "cartulr province dataset schema",
     "description": "It is a complete schema of the dataset. It includes the two parts: i) common part for all corpus - /datasetInformation/; ii) specific fields of the given corpus - /datasetItems/ ",
     "type": "object",
@@ -142,7 +142,7 @@
                     },
                     "nom":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -161,32 +161,32 @@
                             {
                                 "date":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_annee":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_mois":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_jour":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_apres":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "integer"
                                 },
                                 "date_avant":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "integer"
                                 }
                             }
@@ -194,7 +194,7 @@
                     },
                     "historique":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -203,7 +203,7 @@
                     },
                     "lien":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -212,7 +212,7 @@
                     },
                     "remarque":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {

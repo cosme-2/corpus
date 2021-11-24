@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "/transscript.dataset.schema.json",
+    "$id": "https://raw.githubusercontent.com/cosme-2/corpus/main/transscript/schemas/transscript.dataset.schema.json",
     "title": "transscript dataset schema",
     "description": "It is a complete schema of the dataset. It includes the two parts: i) common part for all corpus - /datasetInformation/; ii) specific fields of the given corpus - /datasetItems/ ",
     "type": "object",

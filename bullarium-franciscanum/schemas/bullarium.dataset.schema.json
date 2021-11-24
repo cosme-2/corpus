@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "/bullarium.dataset.schema.json",
+    "$id": "https://raw.githubusercontent.com/cosme-2/corpus/main/bullarium-franciscanum/schemas/bullarium.dataset.schema.json",
     "title": "bullarium dataset schema",
     "description": "It is a complete schema of the dataset. It includes the two parts: i) common part for all corpus - /datasetInformation/; ii) specific fields of the given corpus - /datasetItems/ ",
     "type": "object",
@@ -126,14 +126,19 @@
                             "published"
                         ]
                     },
+                    "itemType":
+                    {
+                        "description": "The type of item (usually it is an 'acte')",
+                        "type": "string"
+                    },
                     "auteur":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "date_deb_annee":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "notes_historiquesGroup":
@@ -148,12 +153,12 @@
                             {
                                 "notes_historiques":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "numero_note":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 }
                             }
@@ -171,12 +176,12 @@
                             {
                                 "apparat_critique":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "numero_note":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 }
                             }
@@ -184,22 +189,22 @@
                     },
                     "commentaire":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "transcription":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "edition":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "analyse":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "dateGroup":
@@ -214,32 +219,32 @@
                             {
                                 "date":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_annee":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_mois":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_deb_jour":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "date_apres":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "integer"
                                 },
                                 "date_avant":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "integer"
                                 }
                             }
@@ -247,7 +252,7 @@
                     },
                     "date_libre":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     }
                 },

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "/cartulr.depot.dataset.schema.json",
+    "$id": "https://raw.githubusercontent.com/cosme-2/corpus/main/cartulr/schemas/cartulr.depot.dataset.schema.json",
     "title": "cartulr depot dataset schema",
     "description": "It is a complete schema of the dataset. It includes the two parts: i) common part for all corpus - /datasetInformation/; ii) specific fields of the given corpus - /datasetItems/ ",
     "type": "object",
@@ -142,7 +142,7 @@
                     },
                     "nom":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -151,7 +151,7 @@
                     },
                     "sigle":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -160,7 +160,7 @@
                     },
                     "code_postal":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -169,7 +169,7 @@
                     },
                     "ville":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -178,7 +178,7 @@
                     },
                     "pays":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -187,7 +187,7 @@
                     },
                     "adresse":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -196,7 +196,7 @@
                     },
                     "site":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -205,7 +205,7 @@
                     },
                     "service":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -214,7 +214,7 @@
                     },
                     "lien":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
