@@ -126,9 +126,14 @@
                             "published"
                         ]
                     },
+                    "itemType":
+                    {
+                        "description": "The type of item (usually it is an 'acte')",
+                        "type": "string"
+                    },
                     "auteur":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -137,7 +142,7 @@
                     },
                     "beneficiaire":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -146,7 +151,7 @@
                     },
                     "destinataire":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -155,7 +160,7 @@
                     },
                     "disposant":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -170,64 +175,64 @@
                         {
                             "date":
                             {
-                                "description": "Add description here",
+                                "description": "Field description",
                                 "type": "string"
                             },
                             "date_deb_annee":
                             {
-                                "description": "Add description here",
+                                "description": "Field description",
                                 "type": "string"
                             },
                             "date_deb_mois":
                             {
-                                "description": "Add description here",
+                                "description": "Field description",
                                 "type": "string"
                             },
                             "date_deb_jour":
                             {
-                                "description": "Add description here",
+                                "description": "Field description",
                                 "type": "string"
                             },
                             "date_apres":
                             {
-                                "description": "Add description here",
+                                "description": "Field description",
                                 "type": "integer"
                             },
                             "date_avant":
                             {
-                                "description": "Add description here",
+                                "description": "Field description",
                                 "type": "integer"
                             }
                         }
                     },
                     "date_libre":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "date_lieu":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "cote":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "principaute_territoriale":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "description":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "langue":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -236,42 +241,42 @@
                     },
                     "authenticite":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "genre":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "analyse":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "transcription":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "remarques":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "mention_hors_teneur":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "note_dorsale":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "edition":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -280,7 +285,7 @@
                     },
                     "regeste":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -289,7 +294,7 @@
                     },
                     "mention":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -308,12 +313,12 @@
                             {
                                 "sources_manuscrites":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 },
                                 "type_source":
                                 {
-                                    "description": "Add description here",
+                                    "description": "Field description",
                                     "type": "string"
                                 }
                             }
@@ -321,12 +326,12 @@
                     },
                     "responsable":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "image_interne":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
@@ -335,12 +340,12 @@
                     },
                     "acte_scelle":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "string"
                     },
                     "sceau":
                     {
-                        "description": "Add description here",
+                        "description": "Field description",
                         "type": "array",
                         "items":
                         {
