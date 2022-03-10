@@ -197,6 +197,11 @@
                         "description": "Field description",
                         "type": "string"
                     },
+                    "transcription-rawXML":
+                    {
+                        "description": "Field description",
+                        "type": "string"
+                    },
                     "edition":
                     {
                         "description": "Field description",
