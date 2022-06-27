@@ -1,6 +1,6 @@
 # COSME²{FAIR} - Corpus
 
-Ce répertoire contient des documents liés à la FAIRisation des corpus du consortium COSME².
+Ce répertoire contient des documents liés à la FAIRisation des corpus du consortium COSME². 
 
 Pour plus de détails, voir https://cosme-2.github.io
 
